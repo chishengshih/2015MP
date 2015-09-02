@@ -1,0 +1,17 @@
+GCC=gcc
+FLAGS=-g
+TARGET=hanoi add
+HANOI_OBJS=hanoi.o hanoi_main.o
+ADD_OBJS=add_main.o
+
+.PHONY: clean
+all: $(TARGET)
+clean:
+	rm -rf $(TARGET) *.o
+
+%.o: %.c
+	$(GCC) $< -c $(FLAGS)
+hanoi: $(HANOI_OBJS)
+	gcc -o $@ $(HANOI_OBJS) $(FLAGS)
+add: $(ADD_OBJS)
+	gcc -o $@ $(ADD_OBJS) $(FLAGS)

@@ -1,0 +1,11 @@
+TARGET=hanoi add
+
+all: $(TARGET)
+hanoi: hanoi.o
+	gcc hanoi_main.c hanoi.o -o hanoi
+hanoi.o: hanoi.c
+	gcc -c hanoi.c
+add: add_main.c
+	gcc add_main.c -o add
+clean:
+	rm -rf $(TARGET) *.o
