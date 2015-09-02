@@ -14,7 +14,7 @@ Assignment in MP0:
 3. Replace README.md in MP0 directory by an arbitray pure text file, up to 10KB. 
 
 4. Revise in MP0/RefereenceCode/HelloWord.c to show your own student ID in the
-	 message. For example, "Hello friends at S ystem Programming Design
+	 message. For example, "Hello friends at System Programming Design
 	 2015 Fall from B03902999."
 
 5. In folder MP0/YourAssignment, add
