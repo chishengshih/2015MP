@@ -6,9 +6,13 @@ of System Programming Design 2015 Fall.
 
 Assignment in MP0:
 
+<<<<<<< HEAD
 1. Create a private repository for yourself. A private repository can
 	 be only be accessed, including read and write, by yourself, TA, and
 	 instructor.
+=======
+1. Create a private repository in Organization SystemProgramming2015FallatNTU ("https://github.com/SytemProgramming2015FallatNTU") for yourself. A private repository can be only be accessed, including read and write, by yourself, TA, and instructor.
+>>>>>>> SytemProgramming2015FallatNTU/master
 2. Fork repository '2015MP' to your private repository.
 
 3. Replace README.md in MP0 directory by an arbitray pure text file, up to 10KB. 

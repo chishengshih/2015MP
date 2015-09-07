@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 TOP=HelloWorld
 
 all: $(TOP)
@@ -11,3 +12,5 @@ $(TOP).o: $(TOP).c
 
 clean:
 	rm -f $(TOP).o $(TOP).exe $(TOP)
+=======
+>>>>>>> SytemProgramming2015FallatNTU/master
