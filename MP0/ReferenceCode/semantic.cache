@@ -1,0 +1,33 @@
+;; Object ReferenceCode/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ReferenceCode/"
+  :tables (list 
+   (semanticdb-table "hanoi.c"
+    :major-mode 'c++-mode
+    :tags '(("stdio.h" include (:system-flag t) nil [1 19]) ("hanoi" function (:arguments (("towel" variable (:type "int") (reparse-symbol arg-sub-list) [32 42]) ("start" variable (:type "int") (reparse-symbol arg-sub-list) [43 53]) ("target" variable (:type "int") (reparse-symbol arg-sub-list) [54 65])) :type "long") nil [21 252]))
+    :file "hanoi.c"
+    :pointmax 253
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "add_main.c"
+    :major-mode 'c++-mode
+    :tags '(("stdio.h" include (:system-flag t) (dependency-file "/usr/include/stdio.h") [1 19]) ("stdlib.h" include (:system-flag t) (dependency-file "/usr/include/stdlib.h") [20 39]) ("main" function (:arguments (("argc" variable (:type "int") (reparse-symbol arg-sub-list) [50 59]) ("argv" variable (:pointer 2 :type "char") (reparse-symbol arg-sub-list) [60 72])) :type "int") nil [41 352]))
+    :file "add_main.c"
+    :pointmax 353
+    )
+   (semanticdb-table "hanoi_main.c"
+    :major-mode 'c++-mode
+    :tags '(("stdio.h" include (:system-flag t) (dependency-file "/usr/include/stdio.h") [1 19]) ("stdlib.h" include (:system-flag t) (dependency-file "/usr/include/stdlib.h") [20 39]) ("hanoi.h" include nil nil [40 58]) ("main" function (:arguments (("argc" variable (:type "int") (reparse-symbol arg-sub-list) [69 78]) ("argv" variable (:pointer 2 :type "char") (reparse-symbol arg-sub-list) [79 91])) :type "int") nil [60 259]))
+    :file "hanoi_main.c"
+    :pointmax 260
+    )
+   (semanticdb-table "hanoi.h"
+    :major-mode 'c++-mode
+    :tags 'nil
+    :file "hanoi.h"
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre4"
+  :semanticdb-version "2.0pre4"
+  )
